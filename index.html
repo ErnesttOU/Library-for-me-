@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library for me xd</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<h1>BOOKS SECTION</h1>
+<h2>My Favorite Books</h2>
+<div id="book-container"></div>
+<button id="add-book-btn">New book</button>
+<dialog id="book-dialog">
+    <form id="book-form">
+        <input type="text" id="title" placeholder="Title" required>
+        <input type="text" id="author" placeholder="Author" required>
+        <input type="number" id="pages" placeholder="Pages" required>
+        <label>
+            <input type="checkbox" id="read">
+            Read
+        </label>
+        <button type="submit">Add Book</button>
+        <button type="button" id="cancel-btn">Cancel</button>
+    </form>
+</dialog>
+
+<script src="app.js"></script>
+</body>
+
+</html>
